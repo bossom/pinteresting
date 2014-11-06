@@ -1,5 +1,7 @@
-$body-bg: #16a085;
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);$body-bg: #16a085;
 $navbar-default-bg: #1abc9c;
+$font-family-sans-serif: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-default-link-color: white;
 $brand-primary: #1abc9c;
 @import 'bootstrap';
+.navbar-brand {font-weight: bold;}
